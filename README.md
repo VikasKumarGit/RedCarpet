@@ -1,2 +1,1 @@
-# RedCarpet
-RedCarpet is built with HTML and CSS3 that you can play this game by using any Browser. This is simple quiz game. 
+RedCarpet is built with HTML and CSS3 that you can play this game by using any Browser. This is simple quiz game. In this game letters from english word or Sentence are placed at different blocks. Players have to find English letters of that word or Sentence by passing through the pointers. These Pointers help to player to find all the words across the panel and complete the sentence.

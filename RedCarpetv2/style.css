@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1 span{
+    font-size: 25px;
+    color: white;
+}
+.navBar{
+    float: left;
+}
+.navBar ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    /* float: left; */
+}
+
+.instructions{
+    background-color: yellow;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.instructions div{
+    width: 500px;
+    height: 100%;
+}
+.instructions button{
+    margin: 25px;
+    width: 250px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.pannel-start{
+    width: 100%;
+    height: 20px;
+    /* border: 1px solid; */
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.pannel-start div{
+    width: 100px;
+    height: 15px;
+    /* border: 1px solid; */
+    margin: 10px;
+    /* background-color: black; */
+    /* color: red; */
+    text-align: center;
+}
+
+.pannel{
+    width: 100%;
+    height: 650px;
+    /* background-color: aqua; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: transparent; */
+}
+
+.word{
+    width: 50px;
+    height: 50px;
+    /* background-color: blue; */
+    /* color: aqua; */
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.word:hover{
+    scale: 1.5;
+    color: white;
+    background-color: green;
+}
+span{
+    font-size: 10px;
+    font-style: bold;
+}
+
+/* ...........Carpet Person and NextPosition......... */
+.carpet{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.person{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextPosition{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+/* ......RED Carpet Roots..... */
+/* ....Red Carprt Root Blocks Down.... */
+#root-1BlockDown:hover{    
+    background-color: red;
+    height: 150px;
+    margin-top: 100px;
+}
+#root-2BlockDown:hover{    
+    background-color: red;
+    height: 275px;
+    margin-top: 225px;
+}
+
+/* ....Red Carprt Root Blocks Up.... */
+#root-1BlockUp:hover{   
+    background-color: red; 
+    padding-top: 90px;
+    margin-bottom: 90px;
+}
+#root-2BlockUp:hover{    
+    background-color: red;
+    height: 275px;
+    margin-bottom: 225px;
+}
+
+/* ....Red Carpet Root Blocks Right */
+#root-1BlockRight:hover{
+    background-color: red;    
+    padding-right: 75px;
+    margin-left: 75px;
+}
+#root-2BlockRight:hover{ 
+    background-color: red;   
+    padding-right: 200px;
+    margin-left: 200px;
+}
+#root-3BlockRight:hover{ 
+    background-color: red;   
+    padding-right: 325px;
+    margin-left: 325px;
+}
+
+/* .....Red Carpet Root Block Left */
+#root-1BlockLeft:hover{  
+    background-color: red;  
+    padding-left: 75px;
+    margin-right: 75px;
+}
+#root-2BlockLeft:hover{ 
+    background-color: red;   
+    padding-left: 200px;
+    margin-right: 200px;
+}
+/* ..........ROOT ENDS.......... */
+
+/* ....Person Moves...... */
+/* ......Person Moves Block Down...... */
+#person-1BlockDown:hover{
+    scale: none;
+    transform: translateY(100px);
+    cursor: pointer;
+}
+#person-2BlockDown:hover{
+    scale: none;
+    transform: translateY(225px);
+    cursor: pointer;
+}
+/* ......Person Moves Block Left............. */
+#person-1BlockLeft:hover{
+    scale: none;
+    transform: translateX(-75px);
+    cursor: pointer;
+}
+#person-2BlockLeft:hover{
+    scale: none;
+    transform: translateX(-200px);
+    cursor: pointer;
+}
+/* ......Person Moves Block right............ */
+#person-1BlockRight:hover{
+    scale: none;
+    transform: translateX(75px);
+    cursor: pointer;
+}
+#person-2BlockRight:hover{
+    scale: none;
+    transform: translateX(200px);
+    cursor: pointer;
+}
+#person-3BlockRight:hover{
+    scale: none;
+    transform: translateX(325px);
+    cursor: pointer;
+}
+/* ..........Person Block Ends........... */
+
+/* ..... Next Position Pointer..... */
+/* ...........Position Pointer Moves Down......... */
+#pointer-1BlockDown:hover{
+    transform: translateY(50px);
+    cursor: pointer;
+}
+#pointer-2BlockDown:hover{
+    transform: translateY(150px);
+    cursor: pointer;
+}
+/* ...........Position Pointer Moves Up......... */
+#pointer-1BlockUp:hover{
+    transform: translateY(-75px);
+    cursor: pointer;
+}
+/* ...........Position Pointer Moves Right......... */
+#pointer-1BlockRight:hover{
+    transform: translateX(60px);
+    cursor: pointer;
+}
+#pointer-2BlockRight:hover{
+    transform: translateX(150px);
+    cursor: pointer;
+}
+
+/* .........FOOTER........... */
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .goodGame{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quast{
+    width: 75%;
+    height: 100%;
+    /* margin: 15px; */
+    /* border: 1px solid; */
+}
+.quast div{
+    margin: 15px;
+}
+.social{
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid; */
+}
+.social div{
+    padding-top: 15px;
+    margin: 15px;
+}
+
+

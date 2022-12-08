@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>RedCarpet v2</title>
+        <link rel="icon" href="RedCarpet.png" type="image/x-icon"/>
+        <script type="text/javascript">
+            function hideShow(){
+                if(document.getElementById("gameBlock").style.visibility=="visible")
+                {
+                    document.getElementById("gameBlock").style.visibility="hidden";
+                }else{
+                    document.getElementById("gameBlock").style.visibility="visible";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>RedCarpet <span>v2</span></h1>
+            </div>
+            <div class="navBar">
+                <ul>
+                    <li><a href="https://vikaskumargit.github.io/RedCarpet/RedCarpetv1/index.html" target="_blank"> RedCarpet v1</a></li>
+                    <li><a href="https://github.com/VikasKumarGit/RedCarpet.git" target="_blank">Repositories</a></li>
+                    <li><a href="https://www.linkedin.com/in/vikas-kumar-9a973624b/" target="_blank">LinkdIn</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="instructions">
+            <h1>Instructions</h1>
+            <div>
+                <ul>
+                    <li>This Page is not Responsive yet. Make sure you open this page in your Desktop or Laptop screen. I will make next verson of RedCarpet v3 will be Responsive and you will be able to enjoy RedCarpet on your mobile Device.</li>
+                    <li>This is RedCarpet v2 a new game with new Challenge. </li>
+                    <li>RedCarpet v2 have more Simple user interface than RedCarpet v1... This time game pannel Interface will help you in finding the Letters more eaisly.</li>
+                    <li>In the Game Pannel letters from an <b>English Sentence</b> is hidden. Find all letters and make your Sentence.</li>
+                    <li>Just go through the Starting point... you will be able to find all the Letters.</li>
+                    <li>Find all Lettters... check the footer for your <b>Quast</b></li>
+                </ul>
+            </div>
+            <button id="ShowGamePannel" onclick="hideShow()">Show/Hide Game Pannel</button>
+        </div>
+
+        <!-- Start Pannel -->
+        <div class="pannel-start">
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+            <div class="start-block">Start</div>
+        </div>
+
+        <!-- Main Game Pannel -->
+        <div class="pannel" id="gameBlock">
+            <div class="row1 block">
+                 <div class="carpet" id="root-1BlockDown">
+                     <div class="person" id="person-1BlockDown">
+                         <i class="fa fa-arrow-down"></i>
+                        <!-- <p>Next Location</p -->
+                    </div>
+                </div>
+            </div>
+            <div class="row1 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="person" id="person-2BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="person" id="person-1BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="person" id="person-1BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="person" id="person-2BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="person" id="person-2BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="person" id="person-1BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="person" id="person-1BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="person" id="person-2BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-1BlockRight">
+                    <div class="person" id="person-1BlockRight">
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="person" id="person-1BlockDown">
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        
+            <div class="row2 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word" id="person-1BlockDown">
+                        <div>
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 block"></div>
+            <div class="row2 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="word">L
+                        <div class="nextPosition" id="pointer-2BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 block">
+                <div class="carpet" id="root-3BlockRight">
+                    <div class="word" id="person-3BlockRight">
+                        <div>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 block"></div>
+            <div class="row2 block"></div>
+            <div class="row2 block">
+                <div class="carpet">
+                    <div class="word">
+                        <div>
+                            <h3>LOL</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 block">
+                <div class="carpet" id="root-2BlockRight">
+                    <div class="word">M
+                        <div class="nextPosition" id="pointer-2BlockRight">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 block"></div>
+            <div class="row2 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="word">O
+                        <div class="nextPosition" id="pointer-2BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word" id="person-1BlockDown">
+                        <div>
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row3 block">
+                <div class="carpet">
+                    <div class="word">
+                        <div>
+                            <h3>LOL</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block">
+                <div class="word">I
+                    <div>
+                        <span>end</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block"></div>
+            <div class="row3 block">
+                <div class="carpet">
+                    <div class="word">
+                        <div>
+                            <h3>LOL</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block">
+                <div class="carpet" id="root-1BlockLeft">
+                    <div class="word" id="person-1BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word">Y
+                        <div class="nextPosition" id="pointer-1BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block">
+                <div class="carpet" id="root-2BlockDown">
+                    <div class="word">N
+                        <div class="nextPosition" id="pointer-2BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block">
+                <div class="carpet" id="root-1BlockLeft">
+                    <div class="word" id="person-1BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block">
+                <div class="carpet" id="root-2BlockRight">
+                    <div class="word" id="person-2BlockRight">
+                        <div>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row3 block"></div>
+            <div class="row3 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word" id="person-1BlockDown">
+                        <div>
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row4 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word">I
+                        <div class="nextPosition" id="pointer-1BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block"></div>
+            <div class="row4 block">
+                <div class="carpet" id="root-2BlockLeft">
+                    <div class="word" id="person-2BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word">O
+                        <div class="nextPosition" id="pointer-1BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block"></div>
+            <div class="row4 block">
+                <div class="carpet" id="root-2BlockLeft">
+                    <div class="word" id="person-2BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block"></div>
+            <div class="row4 block">
+                <div class="carpet" id="root-1BlockUp">
+                    <div class="word">I
+                        <div class="nextPosition" id="pointer-1BlockUp">
+                            <i class="fa fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block">
+                <div class="carpet" id="root-1BlockLeft">
+                    <div class="word" id="person-1BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word">R
+                        <div class="nextPosition" id="pointer-1BlockDown">
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4 block">
+                <div class="carpet" id="root-1BlockDown">
+                    <div class="word" id="person-1BlockDown">
+                        <div>
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row5 block">
+                <div class="carpet" id="root-1BlockRight">
+                    <div class="word" id="person-1BlockRight">
+                        <div>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="carpet" id="root-1BlockRight">
+                    <div class="word">K
+                        <div class="nextPosition" id="pointer-1BlockRight">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="word">E
+                    <div>
+                        <span>end</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="carpet" id="root-1BlockRight">
+                    <div class="word" id="person-1BlockRight">
+                        <div>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="word">U
+                    <div>
+                        <span>end</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="word">G
+                    <div>
+                        <span>end</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="carpet" id="root-1BlockLeft">
+                    <div class="word" id="person-1BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block"></div>
+            <div class="row5 block">
+                <div class="carpet" id="root-1BlockUp">
+                    <div class="word">N
+                        <div class="nextPosition" id="pointer-1BlockUp">
+                            <i class="fa fa-arrow-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="carpet" id="root-1BlockLeft">
+                    <div class="word" id="person-1BlockLeft">
+                        <div>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row5 block">
+                <div class="carpet">
+                    <div class="word">
+                        <div>
+                            <h3>LOL</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <div class="goodGame">
+                <div class="quast">
+                    <h1>RedCarpet</h1>
+                        <div>
+                        <p>RedCarpet is built with HTML and CSS3 that you can play this game by using any Browser. This is simple quize game. In this game letters from english word or Sentence are placed at different blocks. Players have to find English letters of that word or Sentence by passing through the pointers. These Pointers help to player to find all the words across the pannel and complete the sentence.</p>
+                        <br>
+                        <p><b>Quast: </b> Find all the letters, make sentence, message me the hindi meaning of that sentence. You will be rewarded with <b>Solution</b> of previous year EDM Question Paper.</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <h1>Social</h1>
+                    <div class="icons">
+                        
+                        <i class="fa fa-github" style="padding-bottom: 15px;"></i> <a href="https://github.com/VikasKumarGit" target="_blank">Github</a><br>
+        
+                        <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/vikas-kumar-9a973624b/" target="_blank">LinkedIn</a>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><span>RedCarpet</span> built with <i class="fa fa-heart"></i> by Vikas Kumar.</p>
+            </div>
+        </footer>
+    </body>
+</html>
